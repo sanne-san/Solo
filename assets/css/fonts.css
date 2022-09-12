@@ -59,3 +59,21 @@
     font-weight: 700;
     src: local(""), url("../fonts/jetbrains-mono-v13-latin-700italic.woff2") format("woff2");
 }
+
+@font-face {
+    font-family: 'Feijoa Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/feijoa-display.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/feijoa-display.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/tiempos-text-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/tiempos-text-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
