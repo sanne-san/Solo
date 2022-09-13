@@ -24,6 +24,10 @@
     --color-border: rgba(255, 255, 255, 0.2);
 }
 
+h2 {
+    line-height: 1.3;
+}
+
 body {
     background-color: var(--background-color);
     font-family: var(--font-serif);
