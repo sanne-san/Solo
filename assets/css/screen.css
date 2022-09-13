@@ -92,7 +92,7 @@ figcaption {
 /* ---------------------------------------------------------- */
 
 .gh-head {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     background-color: transparent;
 }
 
@@ -355,7 +355,7 @@ figcaption {
     gap: 8px;
     align-items: center;
     margin-top: 16px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: var(--color-secondary-text);
 }
@@ -425,7 +425,7 @@ figcaption {
 }
 
 .has-classic-feed .kg-width-full .gh-card-title {
-    font-size: clamp(3.2rem, 2.4rem + 2.5vw, 6.4rem);
+    font-size: clamp(3rem, 2.4rem + 2.5vw, 4rem);
 }
 
 @media (max-width: 991px) {
@@ -897,7 +897,6 @@ figcaption {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    align-items: center;
 }
 
 .gh-foot-menu {
@@ -906,5 +905,5 @@ figcaption {
 }
 
 .gh-copyright {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
