@@ -26,6 +26,7 @@
 
 body {
     background-color: var(--background-color);
+    font-family: var(--font-serif);
 }
 
 .gh-main {
@@ -145,7 +146,7 @@ figcaption {
 .gh-about-primary {
     max-width: 1200px;
     font-size: clamp(3.2rem, 2.4452rem + 2.0968vw, 5.8rem);
-    font-weight: 800;
+    font-weight: 400;
     line-height: 1.2;
 }
 
@@ -333,7 +334,7 @@ figcaption {
 }
 
 .gh-card-title {
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .has-serif-font .gh-card-title {
@@ -414,7 +415,7 @@ figcaption {
 }
 
 .has-classic-feed .gh-card-wrapper {
-    flex: 1;
+    flex: 2;
     flex-shrink: 0;
     width: 100%;
 }
@@ -615,7 +616,7 @@ figcaption {
 .gh-article-title {
     grid-column: 1 / span 9;
     font-size: clamp(4rem, 2.86vw + 2.63rem, 7.2rem);
-    font-weight: 800;
+    font-weight: 400;
     line-height: 1;
     letter-spacing: -0.03em;
 }
