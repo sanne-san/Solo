@@ -421,7 +421,7 @@ figcaption {
 }
 
 .has-classic-feed .gh-card-title {
-    font-size: clamp(3.2rem, 2.7rem + 1.5625vw, 5.2rem);
+    font-size: clamp(3rem, 2.7rem + 1.5625vw, 4rem);
 }
 
 .has-classic-feed .kg-width-full .gh-card-title {
