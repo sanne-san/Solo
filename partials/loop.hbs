@@ -3,35 +3,19 @@
 
         {{#match @custom.post_feed_layout "!=" "Typographic"}}
             <figure class="gh-card-image">
-                {{!-- {{#if feature_image}}
+                {{#if primary_tag.feature_image}}
                     <img
                         {{#match @custom.post_feed_layout "Parallax"}}class="jarallax-img"{{/match}}
-                        srcset="{{img_url feature_image size="s"}} 300w,
-                                {{img_url feature_image size="m"}} 720w,
-                                {{img_url feature_image size="l"}} 960w,
-                                {{img_url feature_image size="xl"}} 1200w,
-                                {{img_url feature_image size="xxl"}} 2000w"
+                        srcset="{{img_url primary_tag.feature_image size="s"}} 300w,
+                                {{img_url primary_tag.feature_image size="m"}} 720w,
+                                {{img_url primary_tag.feature_image size="l"}} 960w,
+                                {{img_url primary_tag.feature_image size="xl"}} 1200w,
+                                {{img_url primary_tag.feature_image size="xxl"}} 2000w"
                         sizes="(max-width: 1200px) 100vw, 1200px"
-                        src="{{img_url feature_image size="m"}}"
-                        alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}"
+                        src="{{img_url primary_tag.feature_image size="m"}}"
+                        alt="{{title}}"
                     >
-                {{/if}} --}}
-                {{#tag}}
-                    {{#if feature_image}}
-                        <img
-                            class="gh-cover-image"
-                            srcset="{{img_url feature_image size="s"}} 300w,
-                                    {{img_url feature_image size="m"}} 720w,
-                                    {{img_url feature_image size="l"}} 960w,
-                                    {{img_url feature_image size="xl"}} 1200w,
-                                    {{img_url feature_image size="xxl"}} 2000w"
-                            sizes="(max-width: 1200px) 100vw, 1200px"
-                            src="{{img_url feature_image size="m"}}"
-                            alt="{{name}}"
-                        >
-                        </section>
-                    {{/if}}
-                {{/tag}}
+                {{/if}}
             </figure>
         {{/match}}
 
