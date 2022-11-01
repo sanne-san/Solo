@@ -3,8 +3,8 @@
 
         {{#match @custom.post_feed_layout "!=" "Typographic"}}
             <figure class="gh-card-image">
-                {{#get tags visibility="internal"}}
-                    {{#foreach tag}}
+                {{#get "tags" visibility="internal"}}
+                    {{#foreach tags}}
                         {{#if tag.feature_image}}
                             <img
                                 {{#match @custom.post_feed_layout "Parallax"}}class="jarallax-img"{{/match}}
