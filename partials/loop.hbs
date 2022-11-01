@@ -3,21 +3,23 @@
 
         {{#match @custom.post_feed_layout "!=" "Typographic"}}
             <figure class="gh-card-image">
-                {{#foreach tag}}
-                    {{#if tag.feature_image}}
-                        <img
-                            {{#match @custom.post_feed_layout "Parallax"}}class="jarallax-img"{{/match}}
-                            srcset="{{img_url tag.feature_image size="s"}} 300w,
-                                    {{img_url tag.feature_image size="m"}} 720w,
-                                    {{img_url tag.feature_image size="l"}} 960w,
-                                    {{img_url tag.feature_image size="xl"}} 1200w,
-                                    {{img_url tag.feature_image size="xxl"}} 2000w"
-                            sizes="(max-width: 1200px) 100vw, 1200px"
-                            src="{{img_url tag.feature_image size="m"}}"
-                            alt="{{title}}"
-                        >
-                    {{/if}}
-                {{/foreach}}
+                {{#get tags visibility="internal"}}
+                    {{#foreach tag}}
+                        {{#if tag.feature_image}}
+                            <img
+                                {{#match @custom.post_feed_layout "Parallax"}}class="jarallax-img"{{/match}}
+                                srcset="{{img_url tag.feature_image size="s"}} 300w,
+                                        {{img_url tag.feature_image size="m"}} 720w,
+                                        {{img_url tag.feature_image size="l"}} 960w,
+                                        {{img_url tag.feature_image size="xl"}} 1200w,
+                                        {{img_url tag.feature_image size="xxl"}} 2000w"
+                                sizes="(max-width: 1200px) 100vw, 1200px"
+                                src="{{img_url tag.feature_image size="m"}}"
+                                alt="{{title}}"
+                            >
+                        {{/if}}
+                    {{/foreach}}
+                {{/get}}
             </figure>
         {{/match}}
 
