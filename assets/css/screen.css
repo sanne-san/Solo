@@ -402,14 +402,15 @@ figcaption {
 
 .has-classic-feed .gh-card-image {
     position: relative;
-    flex: 1;
+    width: max-content;
+    height: 144px;
 }
 
 .has-classic-feed .gh-card-image img {
     display: inline-block;
-    width: 100%;
+    width: auto;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .has-classic-feed .gh-card-wrapper {
