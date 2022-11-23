@@ -396,6 +396,11 @@ figcaption {
 }
 
 .has-classic-feed .gh-card-image {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.has-classic-feed .gh-card-image {
     position: relative;
     flex: 1;
 }
