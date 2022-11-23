@@ -385,11 +385,14 @@ figcaption {
 /* Classic feed
 /* ---------------------------------------------------------- */
 
-.has-classic-feed .gh-card + .gh-card {
+.has-classic-feed .gh-card {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-    border-top: 1px solid var(--color-darker-gray); 
     border-bottom: 1px solid var(--color-darker-gray);
+}
+
+.has-classic-feed .gh-card:first-of-type {
+    border-top: 1px solid var(--color-darker-gray);
 }
 
 .has-classic-feed .gh-card-link {
