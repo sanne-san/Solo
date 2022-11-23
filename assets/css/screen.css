@@ -395,7 +395,7 @@ figcaption {
     gap: clamp(4rem, 3rem + 3.125vw, 8rem);
 }
 
-.has-classic-feed .gh-card-image {
+.has-classic-feed .gh-card-images {
     display: flex;
     gap: 1.6rem;
 }
@@ -403,10 +403,6 @@ figcaption {
 .has-classic-feed .gh-card-image {
     position: relative;
     flex: 1;
-}
-
-.has-classic-feed .no-image .gh-card-image {
-    max-width: 200px;
 }
 
 .has-classic-feed .gh-card-image img {
