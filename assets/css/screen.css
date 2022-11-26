@@ -2,7 +2,7 @@
 @import "fonts.css";
 
 :root {
-    --font-sans: "Faktum Bold", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    --font-sans: "Faktum", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     --font-serif: "Tiempos Text", Georgia, Times, serif;
     --font-mono: JetBrains Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     --color-primary-text: var(--color-darker-gray);
@@ -109,8 +109,8 @@ figcaption {
 
 .gh-head-logo {
     font-family: var(--font-sans);
-    font-size: 1.8rem;
-    font-weight: 400;
+    font-size: 1.7rem;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -124,13 +124,16 @@ figcaption {
 
 .gh-head-menu a {
     color: inherit;
+    font-family: var(--font-sans);
+    font-weight: 500;
 }
 
 .gh-head-btn.gh-btn {
     height: 36px;
     padding: 0 16px;
+    font-family: var(--font-sans);
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 @media (max-width: 991px) {
@@ -148,8 +151,7 @@ figcaption {
 
 .gh-about-primary {
     max-width: 1200px;
-    font-size: clamp(3.2rem, 2.4452rem + 2.0968vw, 5.8rem);
-    font-weight: 400;
+    font-size: clamp(3.2rem, 2.4452rem + 2.0968vw, 6rem);
     line-height: 1.2;
 }
 
@@ -358,6 +360,7 @@ figcaption {
     gap: 8px;
     align-items: center;
     margin-top: 16px;
+    font-family: var(--font-sans);
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--color-secondary-text);
@@ -425,7 +428,7 @@ figcaption {
 }
 
 .has-classic-feed .gh-card-title {
-    font-size: clamp(2.8rem, 2.4rem + 1.5625vw, 3.6rem);
+    font-size: clamp(2.8rem, 2.4rem + 1.5625vw, 3.2rem);
 }
 
 .has-classic-feed .kg-width-full .gh-card-title {
@@ -593,7 +596,7 @@ figcaption {
 .gh-article-date {
     margin-top: 4px;
     font-size: 1.4rem;
-    font-weight: 480;
+    font-weight: 400;
     color: var(--color-secondary-text);
 }
 
@@ -683,7 +686,7 @@ figcaption {
 }
 
 .gh-content > :is(p, ul, ol) {
-    font-weight: 480;
+    font-weight: 400;
 }
 
 .has-serif-font .gh-content > :is([id], p, ul, ol) {
@@ -798,11 +801,15 @@ figcaption {
 }
 
 .has-serif-font .gh-navigation {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
 }
 
 .has-mono-font .gh-navigation {
     font-family: var(--font-mono);
+}
+
+.gh-navigation-link {
+    font-weight: 700;
 }
 
 /* Comments
@@ -837,7 +844,9 @@ figcaption {
     height: 52px;
     padding: 0 8px 0 24px;
     margin-top: 40px;
+    font-family: var(--font-sans);
     font-size: 1.7rem;
+    font-weight: 500;
     color: var(--color-secondary-text);
     cursor: pointer;
     background-color: var(--color-border);
@@ -845,7 +854,8 @@ figcaption {
 }
 
 .gh-subscribe-input .gh-btn {
-    font-weight: 700;
+    font-family: var(--font-sans);
+    font-weight: 500;
 }
 
 /* Archive
@@ -909,5 +919,7 @@ figcaption {
 }
 
 .gh-copyright {
+    font-family: var(--font-sans);
     font-size: 1.6rem;
+    font-weight: 500;
 }
