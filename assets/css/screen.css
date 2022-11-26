@@ -2,9 +2,8 @@
 @import "fonts.css";
 
 :root {
-    --font-sans: Manrope, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    --font-sans: "Faktum Bold", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     --font-serif: "Tiempos Text", Georgia, Times, serif;
-    --font-heading:  "Feijoa Display", Georgia, Times, serif;
     --font-mono: JetBrains Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     --color-primary-text: var(--color-darker-gray);
     --color-secondary-text-dark: rgba(0, 0, 0, 0.4);
@@ -109,7 +108,7 @@ figcaption {
 }
 
 .gh-head-logo {
-    font-family: var(--font-heading);
+    font-family: var(--font-sans);
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -155,7 +154,7 @@ figcaption {
 }
 
 .has-serif-font .gh-about-primary {
-    font-family: var(--font-heading);
+    font-family: var(--font-sans);
 }
 
 .has-mono-font .gh-about-primary {
@@ -342,7 +341,7 @@ figcaption {
 }
 
 .has-serif-font .gh-card-title {
-    font-family: var(--font-heading);
+    font-family: var(--font-sans);
 }
 
 .has-mono-font .gh-card-title {
@@ -631,7 +630,7 @@ figcaption {
 }
 
 .has-serif-font .gh-article-title {
-    font-family: var(--font-heading);
+    font-family: var(--font-sans);
 }
 
 .has-mono-font .gh-article-title {
