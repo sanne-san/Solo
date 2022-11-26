@@ -622,8 +622,8 @@ figcaption {
 
 .gh-article-title {
     grid-column: 1 / span 9;
-    font-size: clamp(4rem, 2.86vw + 2.63rem, 7.2rem);
-    font-weight: 400;
+    font-size: clamp(4rem, 2.86vw + 2.63rem, 6.4rem);
+    font-weight: 700;
     line-height: 1;
     letter-spacing: -0.03em;
 }
