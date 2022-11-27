@@ -39,7 +39,7 @@ body {
 figcaption {
     font-family: var(--font-sans);
     font-size: 1.7rem;
-    text-align: right;
+    text-align: center;
 }
 
 .kg-width-full figcaption {
@@ -682,7 +682,8 @@ figcaption {
 }
 
 .gh-content > [id] {
-    font-weight: 800;
+    font-family: var(--font-sans);
+    font-weight: 700;
 }
 
 .gh-content > :is(p, ul, ol) {
