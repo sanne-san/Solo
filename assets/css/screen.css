@@ -340,7 +340,7 @@ figcaption {
 }
 
 .gh-card-title {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .has-serif-font .gh-card-title {
@@ -429,7 +429,7 @@ figcaption {
 }
 
 .has-classic-feed .gh-card-title {
-    font-size: clamp(2.8rem, 2.4rem + 1.5625vw, 3.2rem);
+    font-size: clamp(2.8rem, 2.4rem + 1.5625vw, 3.6rem);
 }
 
 .has-classic-feed .kg-width-full .gh-card-title {
