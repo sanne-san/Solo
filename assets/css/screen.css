@@ -37,7 +37,8 @@ body {
 }
 
 figcaption {
-    font-size: 1.3rem;
+    font-family: var(--font-sans);
+    font-size: 1.7rem;
     text-align: right;
 }
 
@@ -146,7 +147,7 @@ figcaption {
 /* ---------------------------------------------------------- */
 
 .gh-about {
-    margin-bottom: 40px;
+    margin-bottom: 56px;
 }
 
 .gh-about-primary {
@@ -615,7 +616,6 @@ figcaption {
 
 .gh-content .gh-article-header {
     grid-row-start: 1;
-    grid-column: 4 / span 9;
     margin-top: 0;
     margin-bottom: clamp(4.8rem, 1.43vw + 4.11rem, 6.4rem);
 }
@@ -625,7 +625,7 @@ figcaption {
     font-size: clamp(4rem, 2.86vw + 2.63rem, 6.4rem);
     font-weight: 700;
     line-height: 1;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.03em;    
 }
 
 .page-template .no-image .gh-article-title {
@@ -843,7 +843,7 @@ figcaption {
     max-width: 480px;
     height: 52px;
     padding: 0 8px 0 24px;
-    margin-top: 40px;
+    margin-top: 48px;
     font-family: var(--font-sans);
     font-size: 2rem;
     font-weight: 500;
