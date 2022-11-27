@@ -681,7 +681,7 @@ figcaption {
     margin-top: clamp(4rem, 2.14vw + 2.97rem, 6.4rem);
 }
 
-.gh-content > [id] {
+.has-serif-font .gh-content>:is([id]) {
     font-family: var(--font-sans);
     font-weight: 700;
 }
